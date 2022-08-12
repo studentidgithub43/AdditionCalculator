@@ -3,10 +3,12 @@ class Program{
     Console.WriteLine("Addition Calculator");
 
     Console.Write("Enter the first number: ");
-    int a = Convert.Int32(Console.ReadLine());
+    //     Change this variable name
+    int first = Convert.Int32(Console.ReadLine());
     Console.Write("Enter the second number: ");
-    int b = Convert.Int32(Console.ReadLine());
-    int result = a + b;
+    //     Change this variable name
+    int second = Convert.Int32(Console.ReadLine());
+    int result = first + second;
 
     Console.WriteLine("The total is: " + result);
     Console.Read();
